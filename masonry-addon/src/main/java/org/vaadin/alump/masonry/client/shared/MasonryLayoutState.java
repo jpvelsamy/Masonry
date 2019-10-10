@@ -13,7 +13,7 @@ public class MasonryLayoutState extends AbstractLayoutState {
     }
 
 
-    public int columnWidth = 300;
+    public int columnWidth = 250;
 
     public String transitionDuration = "0.4s";
 

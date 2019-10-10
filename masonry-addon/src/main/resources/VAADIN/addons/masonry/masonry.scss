@@ -21,12 +21,16 @@
     .masonry-item {
       position: relative;
       margin: $masonry-column-spacing $masonry-column-spacing $masonry-column-spacing $masonry-column-spacing;
-      border-radius: 1px;
-      -moz-box-shadow: $masonry-item-shadow;
-      box-shadow: $masonry-item-shadow;
-      box-sizing: border-box;
-      background-color: $masonry-bgcolor;
-      width: $masonry-single-width;
+		border-radius: 24px;
+		border: 6px solid #F4B400;
+		border-top-color: #81C995;
+		border-bottom-color: #81C995;
+		border: 6px solid #F4B400;
+		 -moz-box-shadow: $masonry-item-shadow;
+		box-shadow: $masonry-item-shadow;
+		box-sizing: border-box;
+		background-color: $masonry-bgcolor;
+		width: $masonry-single-width;
 
       &.masonry-item.masonry-double-wide {
         width: $masonry-double-width;
@@ -58,6 +62,11 @@
 
     &.masonry-paper-shadow {
       .masonry-item {
+      	border-radius: 24px;
+		border: 6px solid #F4B400;
+		border-top-color: #81C995;
+		border-bottom-color: #81C995;
+		border: 6px solid #F4B400;
         background: white;
         -moz-box-shadow: $masonry-item-shadow;
         box-shadow: $masonry-item-shadow;
@@ -113,7 +122,11 @@
   &.v-overlay-container {
     > .masonry-dnd-wrapper {
       margin: 8px 8px 8px 8px;
-      border-radius: 1px;
+      border-radius: 24px;
+		border: 6px solid #F4B400;
+		border-top-color: #81C995;
+		border-bottom-color: #81C995;
+		border: 6px solid #F4B400;
       -moz-box-shadow: $masonry-item-shadow;
       box-shadow: $masonry-item-shadow;
       box-sizing: border-box;
